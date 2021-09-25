@@ -1,3 +1,6 @@
+import '../styles/componentes/pages/NosotrosPage.css'
+
+
 const Nosotros = (props) => {
     return (
         <section id="holder">

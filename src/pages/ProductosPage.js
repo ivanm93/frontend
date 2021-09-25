@@ -1,6 +1,8 @@
+import '../styles/componentes/pages/ProductosPage.css'
+
 const Productos = (props) => {
     return (
-        <main>
+        <section>
         <h2>Galeria</h2>
         <div class="info">
         <h3>Autos</h3>
@@ -100,7 +102,7 @@ const Productos = (props) => {
       </div>
       </div>
   
-      </main>
+      </section>
     )
 }
 export default Productos;

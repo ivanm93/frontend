@@ -1,3 +1,5 @@
+import '../styles/componentes/pages/ContactanosPage.css'
+
 const Contactanos = (props) => {
     return (
         <section>

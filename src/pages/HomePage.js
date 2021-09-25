@@ -1,3 +1,6 @@
+import '../styles/componentes/pages/HomePage.css'
+
+
 const HomePage = (props) => {
     return (
         <section >
@@ -39,7 +42,7 @@ const HomePage = (props) => {
           </button>
         </div>
   
-        <div class="container py-5">
+        <div class="container">
           <div class="row flex-lg-row align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
               <img src="images/posventa.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>

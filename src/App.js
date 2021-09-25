@@ -11,6 +11,8 @@ import HomePage from "./pages/HomePage";
 import Nosotros from "./pages/NosotrosPage";
 import Productos from "./pages/ProductosPage";
 
+import './App.css';
+
 function App() {
   return (
         <div className="App">

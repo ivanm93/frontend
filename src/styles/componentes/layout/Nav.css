@@ -1,0 +1,16 @@
+nav div div ul li a{
+  color: black;
+  text-decoration: none;
+  padding: 10px ;
+}
+
+nav div div ul li a:hover{
+    background-color:darkgray;
+    color: black;
+  }
+  nav div div ul li a.activo{
+    background-color:darkgray;
+    list-style: none;
+    padding: 8px ;
+  }
+  

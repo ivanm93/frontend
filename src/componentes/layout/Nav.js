@@ -1,22 +1,24 @@
-import {Link} from 'react-router-dom';
+import '../../styles/componentes/layout/Nav.css';
+
+import {NavLink} from 'react-router-dom';
 
 const Nav = (props) => {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid" id="holder">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="holder">
+    <div class="container-fluid" >
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <Link to="/" class="nav-link active" aria-current="page">Home</Link>
+            <NavLink activeClassName="activo" exact to="/">Home</NavLink>
           </li>
           <li class="nav-item">
-            <Link to="/nosotros" class="nav-link active" aria-current="page">nosotros</Link>
+            <NavLink activeClassName="activo" exact to="/nosotros"  >nosotros</NavLink>
           </li>
            <li class="nav-item">
-            <Link to="/productos" class="nav-link active" aria-current="page" >Productos</Link>
+            <NavLink activeClassName="activo" exact to="/productos"  >Productos</NavLink>
           </li>
            <li class="nav-item">
-            <Link to="/contactos" class="nav-link active" aria-current="page" >Contactanos</Link>
+            <NavLink activeClassName="activo" exact to="/contactos"  >Contactanos</NavLink>
           </li>
         </ul>
        

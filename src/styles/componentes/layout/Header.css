@@ -1,0 +1,20 @@
+header {
+    background-color: black;
+    height: 100px;
+}
+
+#imagen1{
+  padding: 18px;
+  box-sizing: border-box;
+}
+#imagen2{
+  padding: 44px;
+  box-sizing: border-box;
+}
+header div h2 {
+  float: right;
+  color: #f4f4f4;
+  padding: 30px;
+  box-sizing: border-box;
+  font-weight: 100;
+}
